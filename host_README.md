@@ -1,14 +1,26 @@
-# Host Authority: Sovereign-Talent-Engine
-# Location: iMac 12.1 Host (i5-2400S)
+# 🏛️ Sovereign-Talent-Engine (Host Authority)
+**Location:** iMac 12.1 Host (i5-2400S)
+**Architecture:** Infinite Gravity Ingestion // Self-Healing Substrate
 
-## I. System Initialization
-- **host_init_db.py**: Architects the 'people.db' SQLite substrate. Creates relational tables for Entities, Affiliations (Elastic Bonds), and Metadata logs.
-- **host_init_coa.py**: Initializes the 'Chart of Archetypes' (COA). Defines the 20-point Digital Twin labels and weights.
+## 🌌 I. Initialization & Substrate Architecture
+Foundational scripts to architect the relational vault.
+* **`host_init_db.py`**: Constructs the `people.db` SQLite schema. Defines `Entities` (Immutable Anchors), `Affiliations` (Elastic Bonds), and `Metadata_Logs` (Provenance Chain).
+* **`host_init_coa.py`**: Seeds the **Chart of Archetypes (COA)**. Injects the 20-point Digital Twin weights (11 Dynamic Archetypes, 55 Immutable Domains) for Information Gain scoring.
+* **`manage_sovereign_tables.py`**: Data utility for the COA. Handles bi-directional CSV synchronization for manual tuning of the intelligence model.
 
-## II. Data Ingestion & Provenance
-- **host_extract_main.py**: Primary intake for high-volume Personnel spreadsheets. Assigns Sovereign IDs and Personnel attribution.
-- **host_extract_linkedin.py**: Specialized intake for "Connections.csv" exports, mapping external fields to internal 20-point weights.
+## 🛰️ II. Ingestion Layer (Infinite Gravity)
+A delimiter-agnostic mining layer designed for unstructured or "hostile" data sources.
+* **`host_extract_spreadsheets.py`**: The "Universal Miner." Scans multi-tab workbooks using **Identity Mass** to bypass junk headers and auto-map column signals.
+* **`host_extract_linkedin.py`**: The "Graph Ingestor." Specialized for LinkedIn `Connections.csv`. Features **"Delimiter Ghost"** detection to force-split columns and bypass export disclaimers.
+* **`host_extract_emails.py`**: The "Log Miner." Performs **Recursive Deep Scans** on Maildirs and raw directories to extract sender/recipient signals and communication context.
 
-## III. Network & Intelligence Governance
-- **host_bridge_api.py**: Mission control gateway. Manages the priority queue for Nodes based on 'Information Gain' needs.
-- **host_audit_stats.py**: Stakeholder dashboard. Reports on substrate volume, maturation rates, and global system health.
+## 🧠 III. The Intelligence Core
+* **`engine_core.py`**: The centralized **System Brain**. Executed automatically post-ingest to perform real-time **Identity Resolution**. 
+    * **Hard Merge:** Unifies fragments sharing identical Email anchors.
+    * **Provenance:** Maintains the source-tagging for every merged signal to ensure total data accountability.
+
+---
+**Protocol:**
+1. **Initialize:** `python3 host_init_db.py` followed by `python3 host_init_coa.py`.
+2. **Ingest:** Execute any `host_extract_*.py` targeting the `Data_Archive/`.
+3. **Verify:** Use SQLite to monitor the maturation of the `Discovery` queue.

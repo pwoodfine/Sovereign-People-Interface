@@ -1,0 +1,56 @@
+id,profile,domain,sub_domain
+1,Compliance,Counsel,Legal Representation
+2,Compliance,Accounting,Fiscal Oversight
+3,Compliance,Auditor,Independent Review
+4,Compliance,Bank,Institutional Custodian
+5,Real Estate,Leasing,Office
+6,Real Estate,Leasing,Industrial
+7,Real Estate,Leasing,Retail
+8,Real Estate,Tenants,Office
+9,Real Estate,Tenants,Industrial
+10,Real Estate,Tenants,Retail
+11,Real Estate,Municipalities,Local Authority
+12,Construction,Collaborators,Control Architect
+13,Construction,Collaborators,Building Design
+14,Construction,Collaborators,Space Planners
+15,Construction,Collaborators,Façade Consultants
+16,Construction,Collaborators,Landscape Architects
+17,Construction,Collaborators,Traffic Consultants
+18,Construction,Collaborators,Digital Systems
+19,Construction,Collaborators,Local Architect
+20,Construction,Collaborators,Structural Engineers
+21,Construction,Collaborators,Wayfinding
+22,IT Support,Contributors,Software Architect
+23,IT Support,Contributors,DevOps
+24,IT Support,Contributors,Networking
+25,IT Support,Contributors,Quality Assurance
+26,IT Support,Contributors,Database
+27,IT Support,Contributors,Software Integration
+28,IT Support,Contributors,Security
+29,IT Support,Contributors,Front-End (UI/UX)
+30,IT Support,Contributors,Data Science
+31,IT Support,Contributors,BIM
+32,IT Support,Contributors,Mobile
+33,IT Support,Contributors,IoT
+34,IT Support,Contributors,Back-End
+35,IT Support,Contributors,GIS
+36,Investor Relations,Finance,Portfolio Managers
+37,Investor Relations,Finance,Investment Bankers
+38,Investor Relations,Contributors,Academics
+39,Investor Relations,Contributors,Photography
+40,Investor Relations,Contributors,Copy Editing
+41,Investor Relations,Contributors,Merchandise
+42,Investor Relations,Contributors,Print Vendors
+43,Investor Relations,Contributors,Creative Design
+44,Investor Relations,Contributors,Visualizers
+45,Investor Relations,Media,Communication
+46,Investor Relations,Media,Publicity
+47,Investor Relations,Politicians,Strategic Relations
+48,Personnel,Governance,Supervisory Board
+49,Personnel,Governance,Management Board
+50,Personnel,Committees,Partnership Oversight
+51,Personnel,Operations,General Staff
+52,Personnel,Operations,Secretary Pool
+53,Local Administration,Professional Services,Local Accountant
+54,Local Administration,Professional Services,Local Counsel
+55,Local Administration,Financial Services,Local Bank
